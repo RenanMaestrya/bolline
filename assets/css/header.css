@@ -1,0 +1,11 @@
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-top img{
+    width: 30px;
+
+}
+
