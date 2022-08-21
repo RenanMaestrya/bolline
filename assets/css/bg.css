@@ -1,5 +1,9 @@
 
 .conteiner-main{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
     background-color: black;
     min-height: 100vh;
+    
 }

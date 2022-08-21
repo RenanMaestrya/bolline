@@ -3,8 +3,22 @@
 }
 .name-logo{
     font-family: 'Piedra', cursive;
+    font-size: 26px;
+}
+
+.level-name{
+    font-family: 'Petrona', serif;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .text{
     font-family: 'Petrona', serif;
+}
+.decif{
+    font-family: 'Piedra', cursive;
+}
+.button{
+    font-family: 'Piedra', cursive;
+
 }
