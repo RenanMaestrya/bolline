@@ -1,0 +1,14 @@
+.sobre-top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.name-about{
+    font-family: 'Piedra',cursive;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin: 0 0 30px 0;
+}
