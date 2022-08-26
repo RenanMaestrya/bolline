@@ -3,9 +3,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 5px 8px 0 0;
 }
 .header-top img{
     width: 50px;
+    cursor: pointer;
 
 }
+
 
