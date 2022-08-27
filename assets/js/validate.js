@@ -1,7 +1,7 @@
 let pageAnswer = document.getElementsByClassName('decif').item(HTMLCollection).innerHTML;
-const btn = document.querySelector('#button');
-console.log(page);
 
+const btn = document.querySelector('#button');
+const aw = document.querySelector('#answer');
 
 btn.addEventListener('click', function(e){
     e.preventDefault();
