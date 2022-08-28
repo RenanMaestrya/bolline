@@ -2,7 +2,7 @@
 
 # BOLLINE
 
- ### Bolline é um site/enigma feito como projeto para o fim da disciplina de web design do primeiro periodo de ADS, tem como objetivo, replicar algumas tecnicas de HTML e CSS, com um adendo de Javascript como aprendizagem individual.
+ ### Bolline é um site/enigma feito como projeto para a conclusão da disciplina de web design do primeiro periodo de ADS, tem como objetivo, replicar algumas tecnicas de HTML e CSS, com um adendo de Javascript como aprendizagem individual.
 
 ## Demo
 
