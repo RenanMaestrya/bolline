@@ -1,4 +1,4 @@
-let pageAnswer = document.getElementsByClassName('decif').item(HTMLCollection).innerHTML;
+let pageAnswer = document.getElementsByClassName('decif').item(HTMLCollection).innerHTML.trim();
 
 const btn = document.querySelector('#button');
 

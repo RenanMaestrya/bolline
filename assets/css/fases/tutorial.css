@@ -1,0 +1,10 @@
+.level-text{
+    color: black;
+}
+
+.level-text .resposta:hover{
+    color: white;
+}
+.level-text .decif:hover{
+    color: white;
+}
