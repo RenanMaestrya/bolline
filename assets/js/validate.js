@@ -1,4 +1,4 @@
-let pageAnswer = document.getElementsByClassName('decif').item(HTMLCollection).innerHTML.trim();
+let pageAnswer = document.getElementsByClassName('decif').item(HTMLCollection).innerHTML.trim().toLowerCase().replace(/\s+/g, '');
 
 const btn = document.querySelector('#button');
 
@@ -7,7 +7,7 @@ const formC = document.querySelector('.form-control');
 btn.addEventListener('click', function(e){
     e.preventDefault();
     const aw = document.querySelector('#answer');
-    const awValue = aw.value.trim();
+    const awValue = aw.value.trim().toLowerCase().replace(/\s+/g, '');
 
     if(awValue === pageAnswer){
         window.location.href = page;
