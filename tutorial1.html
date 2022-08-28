@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/main-content.css">
     <link rel="shortcut icon" href="./assets/img/icon/ideabranco.png" type="image/x-icon">
     <script src="./assets/js/validate.js" defer></script>
+    <script>let page = 'tutorial1.html';</script>
 </head>
 <body>
     <main class="conteiner-main">
@@ -34,13 +35,14 @@
             </div>
             <div class="level-text">
                 <p>
-                    Bolline é um enigma. Enigma é uma especie de jogo no qual você precisa <span class="decif">DECIFRAR</span>  algo afim de chegar em uma resposta.
+                    
                 </p>
             </div>
         </section>
         <form class="form-control" id="form-control">
+            <small id="small">Resposta errada</small>
             <input class="input" type="text" id="answer" placeholder="Resposta" required>
-            <button class="button" type="submit">Confirmar</button>
+            <button class="button" id="button" type="submit">Confirmar</button>
         </form>
     </main>
 </body>
