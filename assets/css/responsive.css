@@ -81,6 +81,50 @@
     }
 }
 
+/*------------ levelBinario ------------*/
+@media (max-width: 1135px) {
+    .main-content .level-name .levelBinario{
+        font-size: 24px;
+    }
+    .main-content .level-text .resposta{
+        font-size: 16px;
+    }
+}
+@media (max-width: 515px) {
+    .main-content .level-name .levelBinario{
+        font-size: 16px;
+    }
+    .main-content .level-text .resposta{
+        font-size: 10px;
+    }
+}
+
+/*------------ levelPadrao ------------*/
+@media (max-width: 1666px) {
+    .main-content .level-name .levelPadrao{
+        font-size: 24px;
+    }
+    .main-content .level-text .resposta{
+        font-size: 16px;
+    }
+}
+@media (max-width: 515px) {
+    .main-content .level-name .levelPadrao{
+        font-size: 16px;
+    }
+    .main-content .level-text .resposta{
+        font-size: 10px;
+    }
+}
+@media (max-width: 295px) {
+    .main-content .level-name .levelPadrao{
+        font-size: 16px;
+    }
+    .main-content .level-text .resposta{
+        font-size: 10px;
+    }
+}
+
 /*------------ sobre ------------*/
 @media (max-width: 990px){
     .main-content-about{
