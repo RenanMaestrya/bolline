@@ -40,3 +40,6 @@ h2, h3{
     font-weight: 300;
     margin: 0;
 }
+.dropdownTips .visao{
+    color: #cccccc;
+}

@@ -1,0 +1,117 @@
+/*------------ fonts ------------*/
+
+@media (max-width: 600px) {
+    .main-content .level-text{
+        font-size: 24px;
+    }
+}
+@media (max-width: 933px) {
+    .main-content .level-text p{
+        font-size: 32px;
+    }
+}
+@media (max-width: 410px) {
+    .name-logo{
+        font-size: 48px;
+    }
+    .main-content .level-text p{
+        font-size: 30px;
+    }
+    .main-content .level-name{
+        font-size: 32px;
+    }
+}
+@media (max-width: 334px) {
+    .name-logo{
+        font-size: 36px;
+    }
+    .main-content .level-text p{
+        font-size: 24px;
+    }
+    .main-content .level-name{
+        font-size: 32px;
+    }
+}
+
+
+@media (max-height: 800px) {
+    .name-logo{
+        font-size: 32px;
+    }
+    .main-content .level-text p{
+        font-size: 24px;
+    }
+    .main-content .level-name{
+        font-size: 32px;
+    }
+}
+@media (max-width: 290px) {
+    .name-logo{
+        font-size: 36px;
+    }
+    .main-content .level-text p{
+        font-size: 20px;
+    }
+    .main-content .level-name{
+        font-size: 30px;
+    }
+}
+
+/*------------ imagens ------------*/
+@media (max-width: 370px){
+    .main-content .level-text img{
+        width: 100%;
+    }
+}
+
+/*------------ dropdown ------------*/
+@media (max-width: 550px){
+    .show{
+        
+        max-width: fit-content;
+        border-radius: 0 0 25px 25px;
+    }
+    .show img{
+        width: 15%;
+    }
+}
+@media (max-width: 380px){
+    .show img{
+        visibility: hidden;
+    }
+}
+
+/*------------ sobre ------------*/
+@media (max-width: 990px){
+    .main-content-about{
+        flex-direction: column;
+        background-color: black;
+    }
+    .main-content-about .img-renan{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 466px){
+    .main-content-about .info-about{
+        width: auto;
+    }
+    .main-content-about .info-about h2,h3{
+        font-size: 24px;
+        padding: 0 30px 0 30px;
+    }
+    .main-content-about .img{
+        width: auto;
+    }
+}
+@media (max-width: 280px){
+    .main-content-about .info-about{
+        width: auto;
+    }
+    .main-content-about .info-about h2,h3{
+        font-size: 16px;
+        padding: 0 40px 0 40px;
+    }
+    .main-content-about .img{
+        width: auto;
+    }
+}
