@@ -10,10 +10,12 @@ const travaLingua = "trava-lingua";
 
 const voltar = "voltar ao inicio";
 
+const padrao = "padrão";
+
 btn.addEventListener('click', function(e){
     e.preventDefault();
     const aw = document.querySelector('#answer');
-    const awValue = aw.value.trim().toLowerCase().replace(/\s+/g, '');
+    const awValue = aw.value.trim().toLowerCase().replace(/\s+/g, '').replace(/\.|\-/g, '');
 
     if(awValue === pageAnswer){
         window.location.href = page;
@@ -25,8 +27,7 @@ btn.addEventListener('click', function(e){
         return;
     }else if(awValue == voltar.toLocaleLowerCase().trim().replace(/\s+/g, '').replace(/\.|\-/g, '') ){
         window.location.href = 'index.html';
-    }
-    else{
+    }else{
         formC.className = 'form-control error';
     }
 })
